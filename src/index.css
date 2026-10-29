@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1f6f5c;
+  --color-brand-dark: #16503f;
+  --color-brand-light: #e6f2ee;
+  --color-cream: #faf7f2;
+  --color-ink: #1f2a2a;
+  --color-muted: #5b6766;
+  --color-accent: #e08a4b;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-heading: "Fraunces", Georgia, serif;
+  --font-hindi: "Noto Sans Devanagari", sans-serif;
+}
+
+body {
+  @apply bg-cream text-ink font-sans antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-heading;
+}
